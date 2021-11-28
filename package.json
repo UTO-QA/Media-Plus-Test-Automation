@@ -1,0 +1,34 @@
+{
+  "name": "media-plus-test-automation",
+  "version": "1.0.0",
+  "description": "This is a BDD test project for testing Media Plus project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UTO-QA/Media-Plus-Test-Automation.git"
+  },
+  "keywords": [
+    "Babel",
+    "Puppeeter",
+    "Chai",
+    "Jest"
+  ],
+  "author": "Saicharan Papani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UTO-QA/Media-Plus-Test-Automation/issues"
+  },
+  "homepage": "https://github.com/UTO-QA/Media-Plus-Test-Automation#readme",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.3.1",
+    "chai": "^4.3.4",
+    "jest": "^27.3.1",
+    "jest-puppeteer": "^6.0.2",
+    "puppeteer": "^11.0.0"
+  }
+}
